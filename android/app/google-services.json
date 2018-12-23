@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "455307126790",
+    "firebase_url": "https://onblast-622c0.firebaseio.com",
+    "project_id": "onblast-622c0",
+    "storage_bucket": "onblast-622c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455307126790:android:fa1c7d0f1efb1485",
+        "android_client_info": {
+          "package_name": "com.onblast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455307126790-ha8cns64jauocd2h342qjf4rfiajpqvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-TfS4m2sEWx58QuktLISJjuJP3EBnSns"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
