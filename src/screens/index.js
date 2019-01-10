@@ -2,13 +2,13 @@
 import { Navigation } from 'react-native-navigation';
 
 
-import SignOutButton from 'src/components/header-buttons/SignOutButton'; // eslint-disable-line
-import CloseButton from 'src/components/header-buttons/CloseButton'; // eslint-disable-line
-import SearchBar from 'src/components/header-buttons/SearchBar'; // eslint-disable-line
-import SearchButton from 'src/components/header-buttons/SearchButton'; // eslint-disable-line
-import MenuButton from 'src/components/header-buttons/MenuButton'; // eslint-disable-line
-import NotificationButton from 'src/components/header-buttons/NotificationButton'; // eslint-disable-line
-import NavigationBar from 'src/components/header-buttons/NavigationBar'; // eslint-disable-line
+ import SignOutButton from 'src/components/header-buttons/SignOutButton'; // eslint-disable-line
+ import CloseButton from 'src/components/header-buttons/CloseButton'; // eslint-disable-line
+ import SearchBar from 'src/components/header-buttons/SearchBar'; // eslint-disable-line
+ import SearchButton from 'src/components/header-buttons/SearchButton'; // eslint-disable-line
+ import MenuButton from 'src/components/header-buttons/MenuButton'; // eslint-disable-line
+ import NotificationButton from 'src/components/header-buttons/NotificationButton'; // eslint-disable-line
+ import NavigationBar from 'src/components/header-buttons/NavigationBar'; // eslint-disable-line
 import NonSecuredScreenHOC from 'src/screens/non-secured/_/NonSecuredScreenHOC';
 import SecuredScreenHOC from 'src/screens/secured/_/SecuredScreenHOC';
 import SignInScreen from 'src/screens/non-secured/SignInScreen';
@@ -21,7 +21,7 @@ import ReviewerScreen from 'src/screens/secured/ReviewerScreen';
 import ProfileScreen from 'src/screens/secured/ProfileScreen';
 import SearchScreen from 'src/screens/secured/SearchScreen';
 import SearchMySpotScreen from 'src/screens/secured/SearchMySpotScreen';
-import CameraScreen from 'src/screens/secured/blast/CameraScreen';
+//import CameraScreen from 'src/screens/secured/blast/CameraScreen';
 import SelectBlastPlaceModal from 'src/screens/secured/blast/modals/SelectBlastPlaceModal';
 import SelectBlastCaptionModal from 'src/screens/secured/blast/modals/SelectBlastCaptionModal';
 import VideoScreen from 'src/screens/secured/VideoScreen';
@@ -41,7 +41,7 @@ export default function registerScreens(Store, Provider) {
     Navigation.registerComponent('ForgotYourPasswordScreen', () => NonSecuredScreenHOC(ForgotYourPasswordScreen), Store, Provider);
     Navigation.registerComponent('HomeFeedScreen', () => SecuredScreenHOC(HomeFeedScreen), Store, Provider);
     Navigation.registerComponent('MyPlacesFeedScreen', () => SecuredScreenHOC(MyPlacesFeedScreen), Store, Provider);
-    Navigation.registerComponent('CameraScreen', () => SecuredScreenHOC(CameraScreen), Store, Provider);
+ //   Navigation.registerComponent('CameraScreen', () => SecuredScreenHOC(CameraScreen), Store, Provider);
     Navigation.registerComponent('SelectBlastPlaceModal', () => SecuredScreenHOC(SelectBlastPlaceModal), Store, Provider);
     Navigation.registerComponent('SelectBlastCaptionModal', () => SecuredScreenHOC(SelectBlastCaptionModal), Store, Provider);
     Navigation.registerComponent('LiveScreen', () => SecuredScreenHOC(LiveScreen), Store, Provider);

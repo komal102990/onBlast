@@ -9,7 +9,7 @@ import {
     AnInput,
     AnTouchable,
 } from 'src/components/common';
-import Switch from 'react-native-customisable-switch';
+//import Switch from 'react-native-customisable-switch';
 import { Theme } from 'src/styles';
 
 export default class BlastFormBoxA extends PureComponent {
@@ -156,7 +156,7 @@ export default class BlastFormBoxA extends PureComponent {
                                             />
                                         </View>
 
-                                        <Switch
+                                        {/* <Switch
                                             value={!this.props.like}
                                             onChangeValue={(value) => {
                                                 this.props.onChangeLike(value);
@@ -176,7 +176,7 @@ export default class BlastFormBoxA extends PureComponent {
                                             buttonBorderWidth={10}
                                             animationTime={100}
                                             padding
-                                        />
+                                        /> */}
 
                                         <View
                                             style={{

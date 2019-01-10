@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
         height: 35,
         borderRadius: 17.5,
         borderWidth: 1,
-        borderColor: 'transparent',
+        borderColor: '#fff',
         justifyContent: 'center',
         alignItems: 'center',
     },
@@ -248,11 +248,11 @@ class ReviewSingleItem extends PureComponent {
                             type="Foundation"
                             name="like"
                             style={[
-                                 {  color:(this.props.review.data.good) ? 'green' : 'red',
+                                styles.reviewTypeIcon, {
                                     transform: [{
                                         rotate: (this.props.review.data.good) ? '0deg' : '180deg',
                                     }],
-                                }
+                                },
                             ]}
                         />
                     </View>
